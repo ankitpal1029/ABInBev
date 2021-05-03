@@ -8,6 +8,7 @@ import {
 import SignIn from './modules/signin/SignIn';
 import SignUp from './modules/signup/SignUp';
 import NavBar from './modules/navbar/NavBar';
+import Home from './modules/home/Home';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                   <SignUp/>
               </Route>
               <Route path="/">
+              	<Home/>
               </Route>
             </Switch>
           </div>
